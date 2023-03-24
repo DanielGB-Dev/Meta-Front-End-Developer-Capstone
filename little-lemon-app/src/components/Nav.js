@@ -1,7 +1,13 @@
+import "../styles/Nav.css";
+import Logo from "../assets/Logo.svg";
+
 const Nav = () => {
   return (
     <nav>
       <ul>
+        <li>
+          <img src={Logo} />
+        </li>
         <li>
           <a href="index.html">Home</a>
         </li>

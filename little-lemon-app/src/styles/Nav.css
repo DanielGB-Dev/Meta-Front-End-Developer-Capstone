@@ -1,0 +1,19 @@
+nav ul {
+  top: 0;
+  z-index: 999;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav li {
+  display: inline-block;
+}
+nav li > a {
+  font-size: 1rem;
+  font-family: "Karla";
+  font-weight: 900;
+  color: #333333;
+  text-decoration: none;
+}

@@ -3,10 +3,12 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Nav from "./components/Nav";
+import "@fontsource/markazi-text";
+import "@fontsource/karla";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/*<Header />*/}
       <Nav />
       <Main />
       <Footer />
