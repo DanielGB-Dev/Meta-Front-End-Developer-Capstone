@@ -18,28 +18,17 @@ h2 {
   margin: 0;
   font-family: "Markazi Text";
 }
-h1 {
+.hero-container h1 {
   color: #f4ce14;
   font-weight: 400;
 }
-h2 {
+.hero-container h2 {
   color: #edefee;
   font-weight: 300;
 }
 p {
   font-family: "Karla";
   color: #edefee;
-}
-button {
-  background-color: #f4ce14;
-  border-radius: 16px;
-  padding: 8px 16px;
-  text-decoration: none;
-  border: none;
-  font-family: "Karla";
-  font-weight: 600;
-  line-height: 1.75;
-  font-size: 16px;
 }
 .img-container {
   display: flex;
@@ -51,5 +40,5 @@ button {
   width: inherit;
   margin-top: 72px;
   border-radius: 16px;
-  position: fixed;
+  position: absolute;
 }

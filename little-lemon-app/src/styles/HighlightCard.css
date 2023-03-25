@@ -1,0 +1,57 @@
+.ht-card {
+  width: 240px;
+  background-color: #edefee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.ht-card img {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.card-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  padding: 0 8px;
+}
+.card-title-container h3 {
+  font-family: "Karla";
+  color: #000;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.card-title-container p {
+  font-family: "Karla";
+  color: #ee9972;
+  line-height: 1.5;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.card-p {
+  padding: 0 8px;
+  margin: none;
+  font-family: "Karla";
+  color: #495e57;
+  line-height: 1.5;
+  font-size: 0.75rem;
+  text-align: start;
+}
+.card-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  padding: 8px;
+}
+.categories {
+  font-family: "Karla";
+  color: #000;
+  font-weight: 900;
+  font-size: 1rem;
+}
