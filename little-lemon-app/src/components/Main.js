@@ -1,6 +1,7 @@
 import Hero from "./MainSection/Hero";
 import Highlights from "./MainSection/Highlights";
 import Testimonials from "./MainSection/Testimonials";
+import About from "./About";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <Hero />
       <Highlights />
       <Testimonials />
+      <About />
     </main>
   );
 };

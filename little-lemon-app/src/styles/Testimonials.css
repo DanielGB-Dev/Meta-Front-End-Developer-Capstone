@@ -22,7 +22,7 @@
   flex-direction: row;
 }
 .tml-card {
-  width: 320px;
+  width: 300px;
   background-color: #edefee;
   display: flex;
   align-items: start;

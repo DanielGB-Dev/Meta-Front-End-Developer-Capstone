@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #edefee;
+  padding: 16px 0;
+}
+footer img {
+  height: 120px;
+  padding: 16px;
+}
+footer .lnk-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 50%;
+}
+.lnk-container h3 {
+  font-family: "Karla";
+  color: #000;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: start;
+  margin: none;
+}
+.lnk-container ul {
+  list-style: none;
+  text-align: start;
+}
+.lnk-container li {
+  margin: none;
+  font-family: "Karla";
+  color: #495e57;
+  line-height: 1.5;
+  font-size: 0.75rem;
+  text-align: start;
+}

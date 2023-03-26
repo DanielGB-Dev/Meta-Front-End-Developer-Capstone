@@ -1,0 +1,63 @@
+.abt-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.abt-container .txt-container {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  width: 30%;
+}
+.abt-container h1,
+h2 {
+  margin: 0;
+  font-family: "Markazi Text";
+}
+.abt-container h1 {
+  color: #495e57;
+  font-weight: 400;
+}
+.abt-container h2 {
+  color: #333333;
+  font-weight: 300;
+}
+.abt-container p {
+  font-family: "Karla";
+  color: #333333;
+}
+
+.abt-container .abt-img-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  max-width: 400px;
+  height: fit-content;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 64px;
+  flex-direction: row;
+  padding-bottom: 48px;
+}
+
+.abt-container .abt-img-container .abt-img {
+  width: 200px;
+  margin-top: 72px;
+}
+#img1 {
+  width: inherit;
+  height: 300px;
+  border-radius: 16px;
+  margin-top: 72px;
+  z-index: -999;
+  position: absolute;
+}
+#img2 {
+  width: inherit;
+  height: 300px;
+  border-radius: 16px;
+  z-index: 999;
+}
