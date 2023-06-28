@@ -10,10 +10,21 @@ nav ul {
 nav li {
   display: inline-block;
 }
-nav li > a {
+.nav-link {
   font-size: 1rem;
   font-family: "Karla";
   font-weight: 900;
   color: #333333;
   text-decoration: none;
+  padding: 16px;
+}
+
+.nav-link:hover {
+  background-color: #f4ce14;
+  border-radius: 32px;
+}
+
+.active {
+  background-color: #f4ce14;
+  border-radius: 32px;
 }

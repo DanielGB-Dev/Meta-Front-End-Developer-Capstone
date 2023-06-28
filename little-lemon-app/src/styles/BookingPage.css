@@ -1,0 +1,64 @@
+.reservations-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 48px;
+  min-width: 100%;
+}
+h1 {
+  color: #333333;
+  font-weight: 400;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 32px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  background-color: #495e57;
+  width: 500px;
+  border-radius: 16px;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 300px;
+  gap: 8px;
+}
+form label {
+  font-size: 1.25rem;
+  font-family: "Karla";
+  font-weight: 900;
+  color: #edefee;
+}
+form input,
+select {
+  font-size: 1.25rem;
+  font-family: "Karla";
+  background-color: #edefee;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 16px;
+  width: 100%;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+form input[type="submit"] {
+  margin-top: 16px;
+  width: auto;
+  background-color: #f4ce14;
+}
